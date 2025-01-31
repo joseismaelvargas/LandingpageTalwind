@@ -1,3 +1,11 @@
+@import "tailwindcss";
+
+@theme{
+    --font-sans: "Inter", sans-serif;
+    --color-primary:red;
+    --color-secundary:#6b7280
+}
+.text-color{color: var(--color-secundary);}
 *{
   margin: 0;
   padding: 0;

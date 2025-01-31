@@ -5,3 +5,323 @@
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+.back{
+    left: 0;
+    background-color: var(--Medium-Gray);
+    opacity: 0.75;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 780px;
+}
+.front{
+    background-color: white;
+     top: 0;
+    width: 240px;
+    position: absolute;
+    right: 0;
+ 
+    height: 780px;
+    padding: 0px 15px;
+    
+}
+li{
+    margin-bottom: 8px;
+}
+button{
+    background-color: var(--Almost-White);
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Epilogue';
+
+}
+.close{
+   
+      cursor: pointer;
+      text-align: right;
+      margin: 10px ;
+    
+}
+.feacture{
+ 
+    margin-left: 28px;
+    /* display: none; */
+}
+.btn-container{
+    position: absolute;
+    bottom:160px;
+}
+.menu-btn{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+    width: 124x;
+    height: 26px ;
+}
+.login,.register{
+    
+ display: block;
+ margin: 0 auto 16px;
+
+
+
+}
+/* main */
+main{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+.imagenes-container {
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    line-height: 26px;
+    color: var(--Medium-Gray);
+    margin: 0 16px 24px;
+    font-size: 1.50rem;
+}
+.btn-learn{
+    background-color: var(--Almost-Black);
+    width: 178px;
+    height:58px;
+    margin: 0 auto;
+    color: white;
+    display: block;
+    border-radius:15px;
+    margin-bottom: 52px;
+}
+.btn-learn:hover{
+     background-color: var(--Almost-White);
+     color: var(--Almost-Black);
+     border: 1px solid var(--Almost-Black);
+}
+.logos-container{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 96px;
+}
+.logos-container>img{
+    width: 120px;
+    
+}
+
+@media(min-width:768px){
+    .logos-container{
+        width: 200px;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+   .img-main{
+    width: 100%;
+    height: 70%;
+   }
+   /* .btn-learn{
+    margin: 100px ;
+    margin-left: 300px;
+   } */
+    p{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .seccion{
+     
+        width: 80%;
+       
+        margin-left:100px ;
+        
+       
+    }
+    picture{
+        width: 100%;
+        /* position: absolute; */
+    margin-right:50px ;
+      
+    }
+    .amburguesa{
+        display: none;
+    }
+    nav{
+        display: block;
+        /* border: solid 1px red; */
+        width: 70%;
+        height: 30px;
+        margin:0px 100px ;
+        position: absolute;
+        font-size: 23px
+       
+    }
+    .nav>li:hover{
+    color: black;
+    }
+    .back{
+        display: none;
+    }
+    .front{
+       position: static;
+       display: flex;
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        justify-content: space-between;
+        margin-bottom: 56px;
+        background-color: rgba(240, 248, 255, 0);
+    }
+   
+    .btn-container{
+        display: flex;
+        
+        position: static;
+        width: auto;
+        
+    }
+    .btn-container>button{
+        width: 100px;
+        height: 30px;
+        margin: 0px 5px;
+    }
+    li{
+        margin: 0;
+    }
+    .ulfront {
+        /* border: 5px rgb(128, 0, 0) solid; */
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 302px;
+      
+        margin: 10px 0px;
+       
+    
+    }
+    .feacture{
+        margin: 0px 5px;
+        position: absolute;
+        /* border: solid black 1px; */
+        background-color: rgba(250, 246, 241, 0.918);
+    }
+    .feacture>li{
+        display: flex;
+        
+        margin: 3px 3px;
+        
+    }
+    .careus{
+        margin: 0px 20px;
+    }
+   
+    .menu-btn{
+       margin: 0px 10px;
+    
+    }
+     .cerrar{
+        display: none;
+     }
+     .logo{
+        width: 100px;
+     }
+}
+@media(min-width:1400px){
+    .logo{
+        width: 140px;
+    }
+    
+    .btn-container>button{
+        width: 200px;
+        height: 40px;
+    }
+    main{
+ 
+        margin: 20px 65px;
+       
+    }
+    .ulfront{
+        font-size: 23px;
+        list-style: none;
+        /* margin-bottom: 10px; */
+    }
+   nav{
+    color: gray;
+    width: 90%;
+    margin-right: 100px;
+    font-weight: 400;
+   
+
+    
+   }
+   .img-main{
+    width: 900px;
+   height: 600px;
+   }
+   picture{
+    margin-right:50px ;
+    width: auto;
+
+   }
+   .seccion{
+     
+    width: 80%;
+   
+    margin-left:150px ;
+    
+   
+}
+   picture{
+    width: 70%;
+    height: 60%;
+   }
+   
+   .link{
+    display: flex;
+    margin-top: 10px;
+    margin-right:500px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    
+   }
+   .front{
+    font-size: 20px;
+   }
+   h2{
+    font-size: 5.5em;
+    text-align: start;
+   }
+   p{
+    font-size: 25px;
+    text-align: start;
+    line-height: 1.7;
+   }
+   .btn-learn{
+    margin-right: 700px;
+    width: 250px;
+    height: 60px;
+    
+   }
+   .logos-container{
+    width: 600px;
+   }
+   .careus{
+ margin: 10px 20px;
+   }
+}
