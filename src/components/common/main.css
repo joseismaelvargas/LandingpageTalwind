@@ -149,12 +149,12 @@ p{
         
        
     }
-    picture{
+    /* picture{
         width: 100%;
         /* position: absolute; */
-    margin-right:50px ;
+    /* margin-right:50px ; */
       
-    }
+    
     .amburguesa{
         display: none;
     }
@@ -266,12 +266,12 @@ p{
     
    }
    .img-main{
-    width: 200px;
+    width: 700px;
    height: 700px;
    }
-   picture{
-    /* margin-right:50px ; */
-    width: 100%;
+   .imagenes-container{
+    margin-right:150px ;
+    width: 500px;
     height: 700px;
     border: solid 2px red;
    }
@@ -279,14 +279,11 @@ p{
      
     width: 60%;
     border: solid 2px red;
-    margin-left:150px ;
+    /* margin-left:100px ; */
     
    
 }
-   picture{
-    width: 70%;
-    height: 60%;
-   }
+   
    .careus{
     margin: 0px 5px;
    }
