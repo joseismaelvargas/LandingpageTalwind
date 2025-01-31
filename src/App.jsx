@@ -5,7 +5,7 @@ import { Main } from "./components/common/Main"
 // import { ComponentsWithQueries } from "./components/ComponentsWithQueries"
 // import Gradients from "./components/Grandient"
 // import Transform from "./components/Transform"
-import "./app.css"
+
 function App() {
 
 
