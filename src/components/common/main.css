@@ -241,7 +241,7 @@ p{
         width: 100px;
      }
 }
-@media(min-width:1400px){
+@media(min-width:1300px){
     .logo{
         width: 140px;
     }
@@ -251,37 +251,34 @@ p{
         height: 40px;
     }
     main{
- 
-        margin: 20px 65px;
+        border: solid 2px red;
+        margin: 20px 
        
     }
     .ulfront{
-        font-size: 23px;
+        font-size: 17px;
         list-style: none;
         /* margin-bottom: 10px; */
     }
    nav{
+    width: 72%;
     color: gray;
-    width: 90%;
-    margin-right: 100px;
-    font-weight: 400;
-   
-
     
    }
    .img-main{
-    width: 900px;
-   height: 600px;
+    width: 200px;
+   height: 700px;
    }
    picture{
-    margin-right:50px ;
-    width: auto;
-
+    /* margin-right:50px ; */
+    width: 100%;
+    height: 700px;
+    border: solid 2px red;
    }
    .seccion{
      
-    width: 80%;
-   
+    width: 60%;
+    border: solid 2px red;
     margin-left:150px ;
     
    
@@ -290,21 +287,14 @@ p{
     width: 70%;
     height: 60%;
    }
-   
-   .link{
-    display: flex;
-    margin-top: 10px;
-    margin-right:500px;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 23px;
-    
+   .careus{
+    margin: 0px 5px;
    }
    .front{
     font-size: 20px;
    }
    h2{
-    font-size: 5.5em;
+    font-size: 2.5em;
     text-align: start;
    }
    p{
@@ -321,7 +311,11 @@ p{
    .logos-container{
     width: 600px;
    }
+   .link{
+    display: flex;
+    font-size: 17px;
+   }
    .careus{
- margin: 10px 20px;
+ margin: 10px 10px;
    }
 }
